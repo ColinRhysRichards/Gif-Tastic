@@ -1,0 +1,76 @@
+button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+
+body {
+  background-color: black;
+}
+
+#content { font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  background: rgba(95, 204, 255, 0.795);
+  margin: 30px 100px 20px 100px;
+  padding: 30px 100px 30px 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(71, 11, 128);
+
+}
+
+h1 { font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: rgb(233, 38, 184);
+    text-align: center;
+}
+
+label { font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+
+}
+
+button {
+  background-color: #d2d42a; 
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#add-giphy { background-color: #3cc053; 
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+button, #add-giphy {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(233, 38, 184); 
+  color: white;
+}
+
+.imgdiv {
+  display: inline-block;
+}

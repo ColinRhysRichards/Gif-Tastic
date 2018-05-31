@@ -1,5 +1,5 @@
 
-var giphys = ["Zelda", "Jordans", "Lebron James", "e30", "Utah Jazz", "Fails"];
+var giphys = ["Dunks", "Jordans", "Lebron James", "e30", "Utah Jazz", "NBA"];
 
 function alertGiphyName() {
 }
